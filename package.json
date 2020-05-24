@@ -1,0 +1,21 @@
+{
+  "name": "unit-testing-example-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest . --coverage=true",
+    "start": "node ./index.js"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended"
+    ]
+  },
+  "author": "maxtermax",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "jest-extended": "^0.11.5"
+  }
+}
